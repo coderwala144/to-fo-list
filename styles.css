@@ -1,0 +1,76 @@
+body {
+    background-color: #fff;
+}
+
+.container-sm {
+    margin: auto;
+    max-width: 720px;
+}
+
+.container {
+    border-radius: 0px;
+    box-shadow: 0px 5px 20px;
+    margin-top: 20px;
+    height: 350px;
+    width: 640px;
+    transform: translateY(80px);
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.container input {
+    padding: 12px;
+    border-radius: 20px;
+    display: flex;
+    width: 440px;
+    margin-bottom: 20px;
+}
+
+.container button {
+    width: 120px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px;
+}
+
+.bt {
+    display: flex;
+    column-gap: 30px;
+}
+
+.container button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+    border: 3px solid black;
+
+
+}
+
+.container-ls {
+    transform: translateY(80px);
+    background-color: azure;
+    color: black;
+    box-shadow: 0px 5px 20px;
+    height: auto;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 640px;
+    text-align: center;
+}
+.container-ls h4{
+    font-family:sans-serif;
+}

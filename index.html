@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>WebTech4</title>
+</head>
+
+<body>
+    <div class="container-sm">
+        <div class="container">
+            <h3>TO-DO-LIST</h3>
+            <input type="text" placeholder="Enter text" id="Text">
+            <input type="text" placeholder="Enter priority" id="Priority">
+            <div class="bt">
+                <button value="Add" onclick="Add()">Add</button>
+                <button id="clearBtn" onclick="clearall()">Clear</button>
+            </div>
+        </div>
+        <div class="container-ls">
+            <h4>Output</h4>
+            <ol id="output"></ol>
+        </div>
+    </div>
+</body>
+
+</html>
